@@ -60,7 +60,7 @@ public class LeeViewItemManager<T> {
                 return styles.keyAt(i);
             }
         }
-        throw new IllegalArgumentException("位置：" + position + ",该item没有匹配的LeeViewItem类型");
+        throw new IllegalArgumentException("Position：" + position + ",this item not match LeeViewItem type .");
     }
 
     /**
@@ -89,7 +89,7 @@ public class LeeViewItemManager<T> {
                 return;
             }
         }
-        throw new IllegalArgumentException("位置：" + position + ",该item没有匹配的LeeViewItem类型");
+        throw new IllegalArgumentException("Position：" + position + ",this item not match LeeViewItem type .");
     }
 
     public void viewRecycled(LeeViewHolder holder, T entity, int position) {
@@ -102,6 +102,6 @@ public class LeeViewItemManager<T> {
                 return;
             }
         }
-        throw new IllegalArgumentException("位置：" + position + ",该item没有匹配的LeeViewItem类型");
+        throw new IllegalArgumentException("Position：" + position + ",this item not match LeeViewItem type .");
     }
 }
